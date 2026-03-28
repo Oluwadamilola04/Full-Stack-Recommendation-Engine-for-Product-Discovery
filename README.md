@@ -176,35 +176,6 @@ database/
 docs/
 ```
 
-## Portfolio positioning
-
-This project is strong portfolio material because it shows:
-
-- full-stack development
-- backend API design
-- applied recommendation systems
-- data ingestion and transformation
-- user interaction modeling
-- debugging and fallback engineering on Windows
-
-### Good title ideas
-
-- **Hybrid E-commerce Recommendation System**
-- **Full-Stack Recommendation Engine for Product Discovery**
-- **Personalized Shopping Recommender with FastAPI and ML**
-
-### What to highlight on your CV or portfolio
-
-- Built a recommendation engine combining collaborative, content-based, and hybrid ranking
-- Designed a FastAPI backend with product, user, interaction, and recommendation endpoints
-- Ingested and transformed a real product dataset into a working recommendation workflow
-- Seeded interaction data to simulate personalization and cold-start behavior
-- Delivered a frontend experience for browsing products and testing recommendation outputs
-- Added a fallback frontend/runtime path to keep the project working despite OS-specific Node restrictions
-
-### Suggested portfolio write-up
-
-> Built an end-to-end e-commerce recommendation system using FastAPI, SQLite, and custom ML ranking models. The project supports content-based, collaborative, and hybrid recommendations, ingests a real product catalog dataset, seeds user interactions for personalization, and exposes a browsable frontend plus documented REST APIs.
 
 ## Testing
 
