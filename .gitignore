@@ -1,26 +1,55 @@
+# Local environment files
 .env
 .env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 *.egg-info/
-dist/
-build/
-node_modules/
-.DS_Store
-.vscode/
-.idea/
-*.log
-*.pot
 .pytest_cache/
 .coverage
 htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+backend/ecommerce_recommendations.db
+
+# Node / frontend build artifacts
+node_modules/
+frontend/node_modules/
+dist/
+build/
+frontend/dist/
 .next/
 out/
 .vercel/
-.env*.local
-.cache
-.swp
-.swo
-*~
+.cache/
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
 .vscode-server/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Misc
+*.pot
