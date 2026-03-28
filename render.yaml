@@ -7,6 +7,8 @@ services:
     buildCommand: pip install -r requirements.txt && pip install -r requirements-ml.txt
     startCommand: python -m uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
       - key: ECRS_DEBUG
         value: "false"
       - key: ECRS_ENVIRONMENT
