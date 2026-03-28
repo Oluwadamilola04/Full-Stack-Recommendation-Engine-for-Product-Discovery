@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: recommendhub-demo
+    env: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt && pip install -r requirements-ml.txt
+    startCommand: python -m uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: ECRS_DEBUG
+        value: "false"
+      - key: ECRS_ENVIRONMENT
+        value: production
+      - key: ECRS_AUTO_LOAD_DEMO_DATA
+        value: "true"
