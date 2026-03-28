@@ -1,6 +1,6 @@
 # E-commerce Recommendation System
 
-An end-to-end recommendation system built with FastAPI, SQLite, lightweight ML models, and a frontend for exploring products and testing personalized recommendations.
+An end-to-end recommendation system built with FastAPI, SQLite, lightweight ML models, and a frontend for exploring products and testing personalized recommendations. link to site here. https://recommendhub-demo-r31l.onrender.com
 
 ## What this project does
 
